@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'OneData Chat' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for OneData Chat
+
+
+   pod 'SQLite.swift', '~> 0.12.2'
+
+  target 'OneData ChatTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'OneData ChatUITests' do
+    # Pods for testing
+  end
+
+end

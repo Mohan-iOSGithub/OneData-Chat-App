@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189D920E2CAFE30F00A0250E /* LogoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D920D2CAFE30F00A0250E /* LogoutView.swift */; };
+		18C016792CAEDC0300A6907D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C016682CAEDC0300A6907D /* Models.swift */; };
+		18C0167A2CAEDC0300A6907D /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0166C2CAEDC0300A6907D /* ChatViewModel.swift */; };
+		18C0167B2CAEDC0300A6907D /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0166D2CAEDC0300A6907D /* DatabaseManager.swift */; };
+		18C0167C2CAEDC0300A6907D /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0166E2CAEDC0300A6907D /* UserViewModel.swift */; };
+		18C0167D2CAEDC0300A6907D /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C016702CAEDC0300A6907D /* ChatView.swift */; };
+		18C0167E2CAEDC0300A6907D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C016712CAEDC0300A6907D /* LoginView.swift */; };
+		18C0167F2CAEDC0300A6907D /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C016722CAEDC0300A6907D /* RegistrationView.swift */; };
+		18C016802CAEDC0300A6907D /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C016732CAEDC0300A6907D /* UserListView.swift */; };
+		18C016812CAEDC0300A6907D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C016762CAEDC0300A6907D /* ContentView.swift */; };
+		18C016822CAEDC0300A6907D /* OneData_ChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C016772CAEDC0300A6907D /* OneData_ChatApp.swift */; };
+		18C016832CAEDC0300A6907D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C0166A2CAEDC0300A6907D /* Preview Assets.xcassets */; };
+		18C016842CAEDC0300A6907D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C016752CAEDC0300A6907D /* Assets.xcassets */; };
+		2363D1DA6AE7D2AD28138AC0 /* Pods_OneData_Chat_OneData_ChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DD42258647E67B3DBDEE29 /* Pods_OneData_Chat_OneData_ChatUITests.framework */; };
+		24CDA117AE88E36970277E89 /* Pods_OneData_ChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9F9775FF641E80AAD65360 /* Pods_OneData_ChatTests.framework */; };
+		B5DDC802BF543C08E5DA0D53 /* Pods_OneData_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1FC727499E0124D7ADC02D /* Pods_OneData_Chat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18C015F02CAED70A00A6907D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C015D72CAED70700A6907D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C015DE2CAED70700A6907D;
+			remoteInfo = "OneData Chat";
+		};
+		18C015FA2CAED70A00A6907D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C015D72CAED70700A6907D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C015DE2CAED70700A6907D;
+			remoteInfo = "OneData Chat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18335B01DB42C1422F27BBB8 /* Pods-OneData Chat-OneData ChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneData Chat-OneData ChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-OneData Chat-OneData ChatUITests/Pods-OneData Chat-OneData ChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		183AB9532CAF8C7400E54966 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		189D920D2CAFE30F00A0250E /* LogoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutView.swift; sourceTree = "<group>"; };
+		18C015DF2CAED70700A6907D /* OneData Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OneData Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C015EF2CAED70A00A6907D /* OneData ChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OneData ChatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C015F92CAED70A00A6907D /* OneData ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OneData ChatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C016682CAEDC0300A6907D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		18C0166A2CAEDC0300A6907D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18C0166C2CAEDC0300A6907D /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		18C0166D2CAEDC0300A6907D /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		18C0166E2CAEDC0300A6907D /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		18C016702CAEDC0300A6907D /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		18C016712CAEDC0300A6907D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		18C016722CAEDC0300A6907D /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		18C016732CAEDC0300A6907D /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		18C016752CAEDC0300A6907D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C016762CAEDC0300A6907D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18C016772CAEDC0300A6907D /* OneData_ChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneData_ChatApp.swift; sourceTree = "<group>"; };
+		19F78D28D58390738DA31D84 /* Pods-OneData ChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneData ChatTests.debug.xcconfig"; path = "Target Support Files/Pods-OneData ChatTests/Pods-OneData ChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		376F3924F6C86EF0D604D9F3 /* Pods-OneData Chat-OneData ChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneData Chat-OneData ChatUITests.release.xcconfig"; path = "Target Support Files/Pods-OneData Chat-OneData ChatUITests/Pods-OneData Chat-OneData ChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC9F9775FF641E80AAD65360 /* Pods_OneData_ChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneData_ChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF05DD1B4C44F45B9F4A1F6C /* Pods-OneData ChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneData ChatTests.release.xcconfig"; path = "Target Support Files/Pods-OneData ChatTests/Pods-OneData ChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		E0DD42258647E67B3DBDEE29 /* Pods_OneData_Chat_OneData_ChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneData_Chat_OneData_ChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCD47CBA92E9D8B6CDE91FB /* Pods-OneData Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneData Chat.release.xcconfig"; path = "Target Support Files/Pods-OneData Chat/Pods-OneData Chat.release.xcconfig"; sourceTree = "<group>"; };
+		FA1FC727499E0124D7ADC02D /* Pods_OneData_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneData_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBF8D8CC129015A3F66AFD1 /* Pods-OneData Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneData Chat.debug.xcconfig"; path = "Target Support Files/Pods-OneData Chat/Pods-OneData Chat.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C015DC2CAED70700A6907D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DDC802BF543C08E5DA0D53 /* Pods_OneData_Chat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C015EC2CAED70A00A6907D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CDA117AE88E36970277E89 /* Pods_OneData_ChatTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C015F62CAED70A00A6907D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2363D1DA6AE7D2AD28138AC0 /* Pods_OneData_Chat_OneData_ChatUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0118F5067370AE9A90778B0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				183AB9532CAF8C7400E54966 /* SQLite.framework */,
+				FA1FC727499E0124D7ADC02D /* Pods_OneData_Chat.framework */,
+				E0DD42258647E67B3DBDEE29 /* Pods_OneData_Chat_OneData_ChatUITests.framework */,
+				DC9F9775FF641E80AAD65360 /* Pods_OneData_ChatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18C015D62CAED70700A6907D = {
+			isa = PBXGroup;
+			children = (
+				18C016782CAEDC0300A6907D /* OneData Chat */,
+				18C015F22CAED70A00A6907D /* OneData ChatTests */,
+				18C015FC2CAED70A00A6907D /* OneData ChatUITests */,
+				18C015E02CAED70700A6907D /* Products */,
+				258CC088021F72DECDDA7042 /* Pods */,
+				0118F5067370AE9A90778B0E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18C015E02CAED70700A6907D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C015DF2CAED70700A6907D /* OneData Chat.app */,
+				18C015EF2CAED70A00A6907D /* OneData ChatTests.xctest */,
+				18C015F92CAED70A00A6907D /* OneData ChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C015F22CAED70A00A6907D /* OneData ChatTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "OneData ChatTests";
+			sourceTree = "<group>";
+		};
+		18C015FC2CAED70A00A6907D /* OneData ChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "OneData ChatUITests";
+			sourceTree = "<group>";
+		};
+		18C016692CAEDC0300A6907D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18C016682CAEDC0300A6907D /* Models.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18C0166B2CAEDC0300A6907D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18C0166A2CAEDC0300A6907D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18C0166F2CAEDC0300A6907D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18C0166C2CAEDC0300A6907D /* ChatViewModel.swift */,
+				18C0166D2CAEDC0300A6907D /* DatabaseManager.swift */,
+				18C0166E2CAEDC0300A6907D /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18C016742CAEDC0300A6907D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18C016702CAEDC0300A6907D /* ChatView.swift */,
+				18C016712CAEDC0300A6907D /* LoginView.swift */,
+				18C016722CAEDC0300A6907D /* RegistrationView.swift */,
+				18C016732CAEDC0300A6907D /* UserListView.swift */,
+				189D920D2CAFE30F00A0250E /* LogoutView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18C016782CAEDC0300A6907D /* OneData Chat */ = {
+			isa = PBXGroup;
+			children = (
+				18C0166B2CAEDC0300A6907D /* Preview Content */,
+				18C016692CAEDC0300A6907D /* Model */,
+				18C0166F2CAEDC0300A6907D /* ViewModel */,
+				18C016742CAEDC0300A6907D /* Views */,
+				18C016752CAEDC0300A6907D /* Assets.xcassets */,
+				18C016762CAEDC0300A6907D /* ContentView.swift */,
+				18C016772CAEDC0300A6907D /* OneData_ChatApp.swift */,
+			);
+			path = "OneData Chat";
+			sourceTree = "<group>";
+		};
+		258CC088021F72DECDDA7042 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCBF8D8CC129015A3F66AFD1 /* Pods-OneData Chat.debug.xcconfig */,
+				ECCD47CBA92E9D8B6CDE91FB /* Pods-OneData Chat.release.xcconfig */,
+				18335B01DB42C1422F27BBB8 /* Pods-OneData Chat-OneData ChatUITests.debug.xcconfig */,
+				376F3924F6C86EF0D604D9F3 /* Pods-OneData Chat-OneData ChatUITests.release.xcconfig */,
+				19F78D28D58390738DA31D84 /* Pods-OneData ChatTests.debug.xcconfig */,
+				DF05DD1B4C44F45B9F4A1F6C /* Pods-OneData ChatTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C015DE2CAED70700A6907D /* OneData Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C016032CAED70A00A6907D /* Build configuration list for PBXNativeTarget "OneData Chat" */;
+			buildPhases = (
+				FE1458F90F96D585F6AEA680 /* [CP] Check Pods Manifest.lock */,
+				18C015DB2CAED70700A6907D /* Sources */,
+				18C015DC2CAED70700A6907D /* Frameworks */,
+				18C015DD2CAED70700A6907D /* Resources */,
+				7C7A5F642ED96F0B1ADB6298 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OneData Chat";
+			productName = "OneData Chat";
+			productReference = 18C015DF2CAED70700A6907D /* OneData Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C015EE2CAED70A00A6907D /* OneData ChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C016062CAED70A00A6907D /* Build configuration list for PBXNativeTarget "OneData ChatTests" */;
+			buildPhases = (
+				BECADAAFDF3FEDF5576452A5 /* [CP] Check Pods Manifest.lock */,
+				18C015EB2CAED70A00A6907D /* Sources */,
+				18C015EC2CAED70A00A6907D /* Frameworks */,
+				18C015ED2CAED70A00A6907D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C015F12CAED70A00A6907D /* PBXTargetDependency */,
+			);
+			name = "OneData ChatTests";
+			productName = "OneData ChatTests";
+			productReference = 18C015EF2CAED70A00A6907D /* OneData ChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18C015F82CAED70A00A6907D /* OneData ChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C016092CAED70A00A6907D /* Build configuration list for PBXNativeTarget "OneData ChatUITests" */;
+			buildPhases = (
+				E517AD1E471B6CBAC967550B /* [CP] Check Pods Manifest.lock */,
+				18C015F52CAED70A00A6907D /* Sources */,
+				18C015F62CAED70A00A6907D /* Frameworks */,
+				18C015F72CAED70A00A6907D /* Resources */,
+				B68A1CC1A79D7CD4564E6CE4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C015FB2CAED70A00A6907D /* PBXTargetDependency */,
+			);
+			name = "OneData ChatUITests";
+			productName = "OneData ChatUITests";
+			productReference = 18C015F92CAED70A00A6907D /* OneData ChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C015D72CAED70700A6907D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					18C015DE2CAED70700A6907D = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					18C015EE2CAED70A00A6907D = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 18C015DE2CAED70700A6907D;
+					};
+					18C015F82CAED70A00A6907D = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 18C015DE2CAED70700A6907D;
+					};
+				};
+			};
+			buildConfigurationList = 18C015DA2CAED70700A6907D /* Build configuration list for PBXProject "OneData Chat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C015D62CAED70700A6907D;
+			productRefGroup = 18C015E02CAED70700A6907D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C015DE2CAED70700A6907D /* OneData Chat */,
+				18C015EE2CAED70A00A6907D /* OneData ChatTests */,
+				18C015F82CAED70A00A6907D /* OneData ChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C015DD2CAED70700A6907D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C016832CAEDC0300A6907D /* Preview Assets.xcassets in Resources */,
+				18C016842CAEDC0300A6907D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C015ED2CAED70A00A6907D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C015F72CAED70A00A6907D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C7A5F642ED96F0B1ADB6298 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneData Chat/Pods-OneData Chat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneData Chat/Pods-OneData Chat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneData Chat/Pods-OneData Chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B68A1CC1A79D7CD4564E6CE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneData Chat-OneData ChatUITests/Pods-OneData Chat-OneData ChatUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneData Chat-OneData ChatUITests/Pods-OneData Chat-OneData ChatUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneData Chat-OneData ChatUITests/Pods-OneData Chat-OneData ChatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BECADAAFDF3FEDF5576452A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneData ChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E517AD1E471B6CBAC967550B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneData Chat-OneData ChatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE1458F90F96D585F6AEA680 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneData Chat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C015DB2CAED70700A6907D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C016792CAEDC0300A6907D /* Models.swift in Sources */,
+				18C0167A2CAEDC0300A6907D /* ChatViewModel.swift in Sources */,
+				18C0167B2CAEDC0300A6907D /* DatabaseManager.swift in Sources */,
+				18C0167C2CAEDC0300A6907D /* UserViewModel.swift in Sources */,
+				18C0167D2CAEDC0300A6907D /* ChatView.swift in Sources */,
+				18C0167E2CAEDC0300A6907D /* LoginView.swift in Sources */,
+				18C0167F2CAEDC0300A6907D /* RegistrationView.swift in Sources */,
+				18C016802CAEDC0300A6907D /* UserListView.swift in Sources */,
+				18C016812CAEDC0300A6907D /* ContentView.swift in Sources */,
+				189D920E2CAFE30F00A0250E /* LogoutView.swift in Sources */,
+				18C016822CAEDC0300A6907D /* OneData_ChatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C015EB2CAED70A00A6907D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C015F52CAED70A00A6907D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C015F12CAED70A00A6907D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C015DE2CAED70700A6907D /* OneData Chat */;
+			targetProxy = 18C015F02CAED70A00A6907D /* PBXContainerItemProxy */;
+		};
+		18C015FB2CAED70A00A6907D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C015DE2CAED70700A6907D /* OneData Chat */;
+			targetProxy = 18C015FA2CAED70A00A6907D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18C016012CAED70A00A6907D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18C016022CAED70A00A6907D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C016042CAED70A00A6907D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCBF8D8CC129015A3F66AFD1 /* Pods-OneData Chat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OneData Chat/Preview Content\"";
+				DEVELOPMENT_TEAM = 9VCJV7F4MC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneData-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18C016052CAED70A00A6907D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECCD47CBA92E9D8B6CDE91FB /* Pods-OneData Chat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OneData Chat/Preview Content\"";
+				DEVELOPMENT_TEAM = 9VCJV7F4MC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneData-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18C016072CAED70A00A6907D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19F78D28D58390738DA31D84 /* Pods-OneData ChatTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneData-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneData Chat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OneData Chat";
+			};
+			name = Debug;
+		};
+		18C016082CAED70A00A6907D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF05DD1B4C44F45B9F4A1F6C /* Pods-OneData ChatTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneData-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneData Chat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OneData Chat";
+			};
+			name = Release;
+		};
+		18C0160A2CAED70A00A6907D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18335B01DB42C1422F27BBB8 /* Pods-OneData Chat-OneData ChatUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneData-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OneData Chat";
+			};
+			name = Debug;
+		};
+		18C0160B2CAED70A00A6907D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 376F3924F6C86EF0D604D9F3 /* Pods-OneData Chat-OneData ChatUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneData-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OneData Chat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C015DA2CAED70700A6907D /* Build configuration list for PBXProject "OneData Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C016012CAED70A00A6907D /* Debug */,
+				18C016022CAED70A00A6907D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C016032CAED70A00A6907D /* Build configuration list for PBXNativeTarget "OneData Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C016042CAED70A00A6907D /* Debug */,
+				18C016052CAED70A00A6907D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C016062CAED70A00A6907D /* Build configuration list for PBXNativeTarget "OneData ChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C016072CAED70A00A6907D /* Debug */,
+				18C016082CAED70A00A6907D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C016092CAED70A00A6907D /* Build configuration list for PBXNativeTarget "OneData ChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C0160A2CAED70A00A6907D /* Debug */,
+				18C0160B2CAED70A00A6907D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C015D72CAED70700A6907D /* Project object */;
+}
